@@ -1,9 +1,13 @@
-# Sanity Clean Content Studio
+# Sanity Vercel Serverless Functions
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+This is a minimal reproducible example that demonstrates the issue of not being able to use Vercel Serverless Functions with Sanity v3.
 
-Now you can do the following things:
+## Setup
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+1. Install node bloat:
+
+`npm i`
+
+2. Setup Vercel and run development environment:
+
+`vercel dev`
