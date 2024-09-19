@@ -1,5 +1,5 @@
 {
-  "name": "vercel-serverless-functions-demo",
+  "name": "sanity-vercel-serverless-functions",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
