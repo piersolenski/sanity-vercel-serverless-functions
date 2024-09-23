@@ -16,6 +16,6 @@ This will create a new Vercel project if one does not exist, or link it to one i
 
 ## The issue
 
-The Sanity Studio will now be available at the port specified in the CLI. However, if cwe call the serverless function located in `/api/hello-world`, it will return `Hello World`. 
+The Sanity Studio will now be available at the port specified in the CLI. However, if we call the serverless function located in `/api/hello-world`, it will return `Hello World`. 
 
 However, on our personal Vercel & Sanity project, it will return Sanity related HTML rather than the desired "Hello World" response.
