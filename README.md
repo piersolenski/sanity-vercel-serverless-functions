@@ -20,4 +20,4 @@ The Sanity Studio will now be available at port `3000`. If we call the serverles
 
 How can I change the port back to the default for Sanity, `3333`, whilst keeping both the Sanity Studio and serverless function operational?
 
-If I change `sanity dev --port $PORT` to `sanity dev --port 3000`, Sanity will work, but the serverless function won't.
+If I change `sanity dev --port $PORT` to `sanity dev --port 3000`, Sanity will work, but the serverless function will return it's source code instead of `Hello World`.
