@@ -6,8 +6,9 @@
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "Preserve",
+    "module": "NodeNext",
     "moduleDetection": "force",
+    "moduleResolution": "NodeNext",
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true
