@@ -16,6 +16,8 @@ This will create a new Vercel project if one does not exist, or link it to one i
 
 ## The issue
 
-The Sanity Studio will now be available at the port specified in the CLI. However, if we call the serverless function located in `/api/hello-world`, it will return `Hello World`. 
+The Sanity Studio will now be available at port `3000`. If we call the serverless function located in `localhost:3000/api/hello-world`, it will return `Hello World`. 
 
-However, on our personal Vercel & Sanity project, it will return Sanity related HTML rather than the desired "Hello World" response.
+How can I change the port back to the default for Sanity, `3333`, whilst keeping both the Sanity Studio and serverless function operational?
+
+If I change `sanity dev --port $PORT` to `sanity dev --port 3000`, Sanity will work, but the serverless function won't.
